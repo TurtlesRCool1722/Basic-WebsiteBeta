@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(background.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav{
+    background-color: #1f1e1e;
+    text-align: center;
+}
+
+.nav ul{
+    display: inline-block; 
+    padding: 4px;   
+}
+
+.nav ul, li{
+    display: inline-block;  
+    padding: 5px;
+}
+
+.nav ul, li, a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.active{
+    border: 3px solid white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.java-cup-logo{
+    width: 30px;
+    padding: 3px;
+    text-align: left;
+}
+
+.nav ul li a:hover{
+    border: 3px solid white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.section{
+    text-align: center;
+    padding: 200px;
+    font-size: 24px;
+}
+
+.section a{
+    border: 5px solid #645230;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+    color: #3b3425;
+}
+
+.section a:hover{
+    background-color: rgb(51, 49, 49);
+    border: 2px solid rgb(104, 83, 45);
+    color: rgb(78, 58, 20);
+}
+
+#section2{
+    text-align: center;
+    padding: 240px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#section2 a{
+    color: brown;
+    font-size: 25px;
+    border: 3px solid brown;
+}
+
+#section2 p{
+    font-style: italic;
+    color: rgb(32, 32, 32);
+}
